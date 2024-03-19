@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = ""
+authors = ["Semeikin_Kirill <semeikinkirill21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.18.1"
+scrapy = "^2.11.1"
+scrapy-cloudflare-middleware = "^0.0.1"
+scrapy-rotating-proxies = "^0.6.2"
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
